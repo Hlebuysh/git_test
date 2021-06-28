@@ -1,6 +1,6 @@
 #include "Header1.h"
 #include <stdio.h>
-int PrintHelloWorld() {
-	fprintf("Hello");
+int PrintHello() {
+	fprintf("Hello\n");
 	return 0;
 }
