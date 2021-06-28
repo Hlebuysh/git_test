@@ -1,5 +1,5 @@
-#include <stdio.h>
 #include "Header1.h"
+#include "Header2.h"
 #include <string.h>
 
 int main (){
@@ -10,5 +10,6 @@ int main (){
 		PrintHello();
 		scanf("%s", line);
 	}
+	PrintGoodbye();
 	return 0;
 }
